@@ -1,0 +1,139 @@
+@import "meyer-reset.css";
+@import "setup.css";
+
+
+	body {
+		width: 100vh;
+		background-color: black;
+		padding: 20px;
+	}
+	inner-column {
+		margin-left: auto;
+		margin-right: auto;
+		width: 1100px;
+		display: flex;
+		padding: 20px;
+	}
+	header .monster-logo {
+		width: 100px;
+	}
+	.logo {
+		display: flex;
+		flex-direction: row; 
+		justify-content: flex-start;
+		align-items: center;
+		gap: 10px;
+		flex-wrap: wrap;
+	}
+	header .logo-link a{
+		text-decoration: none; 
+		font-family: helvetica, sans-serif;
+		font-weight: 900;
+		font-size: 2.5rem;
+		color: white;
+	}
+	ol {
+		display: flex;
+		flex-direction: row;
+		gap: 20px;
+		list-style-type: none;
+		flex-wrap: wrap;
+	}
+	monster-card {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		border: 4px solid #f5009e;
+		background-color: #4bdeff;
+		color: black;
+		width: 100%; 
+		height: 100%; 
+		font-family: helvetica, sans-serif;
+		padding: 20px; 
+	}
+	.portrait {
+		max-width: 400px;
+		height: 100%;
+		padding: 20px;
+	}
+	monster-card .name {
+		padding-top: 10px;
+		font-size: 2rem;
+	}
+	monster-card .story {
+		font-size: 1rem;
+		padding-top: 10px; 
+		max-width: 30ch;
+	}
+	monster-card .status {
+		border: 2px solid black;
+		border-radius: 20px;
+		max-width: 200px;
+		background-color: #fcf20e;
+		padding: 10px;
+		text-align: center; 
+		font-size: 1.2rem;
+		font-weight: 400;
+	}
+	.status a {
+		text-decoration: none;
+		color: black;
+	}
+	.status:hover {
+		background-color: #f5009e;
+		transition: .5s;
+	}
+	.monster-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 20px; 
+	}
+	@media (max-width: 900px) {
+		.logo {
+			flex-direction: column;	
+			justify-content: start;
+			align-items: start;
+		}
+		ol {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+		monster-card {
+			display: flex;
+			display: column;
+			max-width: 400px; 
+		}
+	}
+	@media (min-width: 1500px) {
+		inner-column {
+			width: 1500px;
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+

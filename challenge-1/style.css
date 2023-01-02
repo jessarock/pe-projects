@@ -1,0 +1,39 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: lavenderblush;
+	font-family: courier;
+}
+.inner-column {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 700px;
+}
+h1 {
+	font-size: 40px;
+}
+.site-header {
+	text-align: center;
+}
+p {
+	line-height: 1.2;
+}
+a {
+	color: purple;
+	text-decoration: none;
+	transition: background-color .5s;
+}
+a:hover {
+	background-color: gold;
+	text-decoration: underline;
+}
+nav {
+	background-color: lightcyan;
+	border: dotted 2px;
+}
+img {
+	display: block;
+	width: 100%;
+	height: auto;
+}

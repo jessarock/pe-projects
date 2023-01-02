@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*Site-CSS*/
+* {
+  box-sizing: border-box;
+}
+picture {
+  display: block; 
+}
+img {
+  display:block;
+  width: 100%;
+  height: auto;
+}
+a {
+  display: block; 
+  text-decoration: none; 
+  color: inherit; 
+}
+body {
+  font-family: helvetica; 
+}
+inner-column {
+  display: block; 
+  max-width: 70%;
+  margin-right: auto; 
+  margin-left: auto; 
+  text-align: center;
+}
+h1 {
+  font-size: 6vh;
+  padding: 25px;
+  letter-spacing: .3rem;
+}
+nav li {
+ display: inline-block;
+}
+.mickey-logo {
+  max-width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+.menu {
+  background-color: #2b4d94;
+  margin: 20px;
+  background-color: black;
+  border-radius: 4px;
+}
+.nav-link {
+  font-size: 1.5em;
+  text-decoration: underline;
+  padding: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+.nav-link:hover {
+  text-decoration: underline red;
+  transition: .5s;
+}
+.newsletter {
+  padding: 20px;
+  background-color: #2b4d94;
+  margin: 20px;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+}
+.subscribe {
+  border: 2px solid white;
+  border-radius: 2px;
+  padding: 10px; 
+  font-size: 1em; 
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.subscribe:hover {
+  border: 2px solid red;
+  transition: 1s;
+}
+.ad-placeholder {
+  padding: 25px; 
+  border: 1px solid black; 
+  margin-bottom: 20px;
+}
+
+/*ABOUT BLOG CONTACT*/
+h2 {
+  color: white;
+  font-size: 6vh;
+  padding: 25px;
+  letter-spacing: .3rem;
+}
+.about-image {
+  display: inline-block;
+  max-width: 30%;
+  height: auto;
+}
+.about-content {
+  padding: 20px;
+  line-height: 23px;
+  letter-spacing: .4px;
+}
+.site-footer {
+  text-align: center;
+}
+.blog-post-title {
+  background-color: #2b4d94;
+  margin: 20px;
+  background-color: black;
+  border-radius: 4px;
+  color: white;
+  font-size: 2vh;
+  padding: 10px;
+letter-spacing: .3rem;
+}
+.blog-content {
+  padding: 20px;
+  line-height: 23px;
+  letter-spacing: .4px; 
+}
+.contact-image {
+  display: inline-block;
+  max-width: 50%;
+  height: auto;
+}
+.contact-content {
+  padding: 20px;
+  line-height: 23px;
+  letter-spacing: .4px; 
+}
+.email-link {
+  border: 2px solid black;
+  border-radius: 2px;
+  padding: 10px; 
+  font-size: 1em; 
+  text-transform: uppercase;
+}
+.email-link:hover {
+  border: 2px solid red;
+  transition: 1s;
+
+
+
+
+
+
+

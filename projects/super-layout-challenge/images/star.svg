@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Star-Artboard" transform="matrix(0.0448344,0,0,0.068657,-5.51463,44.2508)">
+        <rect x="123" y="142" width="1026" height="670" style="fill:none;"/>
+        <g id="double-star" transform="matrix(48.8594,0,0,33.5479,-1155.89,-1617.41)">
+            <path d="M49,29L52.899,41L60.413,37.292L59.208,45.584L71.825,45.584L61.618,53L67.466,59L59.208,60.416L63.107,72.416L52.899,65L49,72.416L45.101,65L34.893,72.416L38.792,60.416L30.534,59L36.382,53L26.175,45.584L38.792,45.584L37.587,37.292L45.101,41L49,29Z" style="fill:rgb(235,235,235);"/>
+        </g>
+    </g>
+</svg>

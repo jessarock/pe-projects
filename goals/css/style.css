@@ -1,0 +1,53 @@
+@import "meyer-reset.css";
+@import "setup.css";
+
+inner-column {
+  display: block;
+  max-width: 700px;
+  margin-left: auto; 
+  margin-right: auto; 
+}
+.page-content {
+  font-family: courier;
+}
+header {
+  background-color: #6ac4a2;
+  padding: 30px;
+}
+h1 {
+  color: #4b4b4b; 
+  font-size: 3rem;
+  font-family: courier;
+  font-weight: 400;
+}
+h2 {
+  font-size: 2rem;
+  color: #4b4b4b;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+ul {
+  padding-left: 50px;
+}
+ul li::marker {
+  color: #6ac4a2;
+  content: "▶";
+}
+li p {
+  padding-top: 15px;
+}
+p {
+ line-height: 30px;
+ color: #4b4b4b;
+ padding-left: 10px;
+ font-size: 1.1rem;
+}
+footer {
+  font-size: 1rem;
+  font-family: courier;
+  padding: 60px 0;
+}
+nav a {
+  color: #6ac4a2;
+  text-decoration: 2px solid underline;
+}
