@@ -22,7 +22,9 @@ h1 {
 }
 ul li::marker {
   color: #6ac4a2;
-  content: "▶";
+  content: "•";
+  font-size: 1rem;
+
 }
 li a {
   font-size: 1.2rem;
