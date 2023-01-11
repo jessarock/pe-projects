@@ -1,5 +1,29 @@
 # My learning journal
 
+## January 10, 2023
+
+**Psuedocode** 
+
+-pseudocode is informed language that helps designers organize their thoughts and plan out the process-withouth the specific programming langauge 
+
+Understanding the problem: 
+-ask questions 
+-draft a problem statement 
+-discover the inputs, processes, and outputs 
+-create tests
+-write the pseudocode
+-write the code
+
+-the "period" of time we're currently working in is when the web started to become interactive- think livejournal 
+-you can always break down a big problem into a set of smaller problems 
+-discovery process --> calm down 
+	-inputs
+	-process
+	-outputs
+
+-large applications are just a bunch of small applications that communicate
+-TDD-inputs, expected result, actual result 
+
 ## January 9/10, 2023
 
 **PHP templating walkthroughs** 
