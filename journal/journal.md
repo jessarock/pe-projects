@@ -1,4 +1,29 @@
 # My learning journal
+
+## January 9/10, 2023
+
+**PHP templating walkthroughs** 
+
+-PHP primary purpose is to generate HTML 
+-PHP doesn't know anything about HTML- it just sees strings and characters 
+-PHP allows you to save things in memory- then create references ($variables)to point to those things in memory so that you can reference them later 
+-runs top down and executes in order (like a script)
+-number_format() 
+-access an item in an array with "bracket notation" 
+-each item in the array has an index number-the first item would be 0, the second would be 1 and so on 
+-to iterate over a list/loop through an array you can use the foreach construct 
+-foreach runs a specific block of code "for each" item 
+-plural for lists and singular for item seems to be the convention 
+-\n = new line, but not used often 
+-working out ideas- you can use <li></li> and skip the <ul> or <ol>
+-after you learn the bulding blocks-the rest is up to you 
+-set up separate file for data & include 
+-conditional logic/contraol structures- you can do anything you want 
+-if you want a cariable to "do nothing" you must initialize it to an empty string-that's the default. 
+-to keep things modular & tidy- create a custom function 
+-you can mix PHP and HTML syntax any way you want as long as you follow the rules
+
+
 solved git dirty 
 
 ## January 9, 2023
