@@ -1,5 +1,23 @@
 # My learning journal
 
+## January 11, 2023
+
+**Intro into Server-side forms** 
+
+-input is a self-closing tag 
+-form and their inputs and labels end up utilizing A LOT of attributes
+-HTML can send forms to other systems
+-For PHP each input gets a name that is used as the key in the submitted array of content. 
+-"POST" neabs you are sending date to the server vs. requesting it 
+-the value attribute represents the data (usually the visual content as well)
+-isset() is a way to tell if the variable has been assigned
+-after you POST the form- the submitted data just hands around for you to use on the subsequent page visit- justlike any other associative array. 
+-HTML inputs (even numbers) end up with "strings" for values. 
+-floatval(string) will turn the string into a float or "floating point integer"
+-an integer is a whole number that can be either positive or negative. 
+-floats are things like 1.5, -42.2, 10.0, etc. 
+-Why use an integer if a float can take care of both? 
+
 ## January 10, 2023
 
 **Psuedocode** 
