@@ -18,6 +18,32 @@
 -floats are things like 1.5, -42.2, 10.0, etc. 
 -Why use an integer if a float can take care of both? 
 
+Notes on the video: 
+-form is the element that houses things 
+-you can taget any attribute in CSS w/ 
+	[type='submit'] OR button[type='submit'];
+-<label> = inline-block
+-<input> = inline-block <--should be changed to display: block; 
+
+$_GET request= trying to receive something 
+$_POST request= trying to send something up to the server
+
+use the method attribute to POST
+
+-give the input a name 
+<input type='number' name='berres'>
+
+-when you push submit it's running code from top to bottom 
+
+$super global = $_POST <-- is an associative array 
+							"guests" => 3, 
+							"berries" => 12, 
+							"go" => true, 
+
+-print_r = array 
+-var_dump() = associative array 
+- isset()							
+
 ## January 10, 2023
 
 **Psuedocode** 
