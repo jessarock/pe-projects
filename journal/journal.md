@@ -8,7 +8,7 @@
 -form and their inputs and labels end up utilizing A LOT of attributes
 -HTML can send forms to other systems
 -For PHP each input gets a name that is used as the key in the submitted array of content. 
--"POST" neabs you are sending date to the server vs. requesting it 
+-"POST" means you are sending data to the server vs. requesting it 
 -the value attribute represents the data (usually the visual content as well)
 -isset() is a way to tell if the variable has been assigned
 -after you POST the form- the submitted data just hands around for you to use on the subsequent page visit- justlike any other associative array. 
@@ -20,7 +20,7 @@
 
 Notes on the video: 
 -form is the element that houses things 
--you can taget any attribute in CSS w/ 
+-you can target any attribute in CSS w/ 
 	[type='submit'] OR button[type='submit'];
 -<label> = inline-block
 -<input> = inline-block <--should be changed to display: block; 
@@ -31,7 +31,7 @@ $_POST request= trying to send something up to the server
 use the method attribute to POST
 
 -give the input a name 
-<input type='number' name='berres'>
+<input type='number' name='berries'>
 
 -when you push submit it's running code from top to bottom 
 

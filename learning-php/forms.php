@@ -28,6 +28,10 @@
 
 <?php
 
+$guests = 0; 
+$berries = 0; 
+
+
 if ( isset($_POST["submitted"]) )
 {
 	echo "<p class='feedback'>submitted it</p>";
@@ -40,12 +44,12 @@ if ( isset($_POST["submitted"]) )
 
 	<div class="field">
 		<label>Guests</label>
-		<input type="number" name="guests">
+		<input type="number" name="guests" value="<?=$guests?>">
 	</div>
 
 	<div class="field">
 		<label>Berries per Guest</label>
-		<input type="number" name="berries">
+		<input type="number" name="berries" value="<?=$berries?>">
 	</div>
 
 	
