@@ -1,4 +1,4 @@
-<!doctype html>
+
 
 	<html lang="en">
 		<head>
@@ -29,8 +29,8 @@
     		<li><a href="https://peprojects.dev/alpha-6/jess/projects/portal/">web portal</a></li>
     		<li><a href="https://peprojects.dev/alpha-6/jess/projects/super-layout-challenge/">responsive layout challenge part 1 </a></li>
     		<li><a href="https://peprojects.dev/alpha-6/jess/projects/second-layout-challenge/index.html">responsive layout challenge part 2</a></li>
-
-
+    		<li><a href="https://peprojects.dev/alpha-6/jess/monsters/">monster adoption agency</a></li>
+    		<li><a href="https://peprojects.dev/alpha-6/jess/projects/e4p/">exercises for programmers</a></li>
     		</ul>
    
      </inner-column>
