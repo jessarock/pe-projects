@@ -1,5 +1,20 @@
 # My learning journal
 
+## January 16, 2023 
+
+**Routing with URL Querystrings**
+
+-when you request a URL, you can also send some data along with that request and change how that page works. 
+-you can pass along some data with your URL request. It's a key: value pair. 
+- ? will signify the start of a querystring. 
+- = will connect the pair 
+-you can send many pairs by putting "&"" between each. 
+-when you POST your form, it gets stored in the $_POST array. 
+-when you GET a URL and send along some data, it gets stored in the $_GET array. 
+-what is returned is just a string
+-it's important to remember that you're making all of these dynamic decisions based on that simple string of characters 
+
+
 ## January 11, 2023
 
 **Intro into Server-side forms** 

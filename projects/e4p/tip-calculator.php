@@ -40,9 +40,6 @@ $total = floatval($bill) + $tip;
 $total = number_format($total, 2, '.', ',');
 ?>
 
-
-
-
 <header>
 	<h1>Tip Calculator</h1>
 </header>
