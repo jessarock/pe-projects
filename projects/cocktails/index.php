@@ -1,5 +1,17 @@
 <!doctype html>
 
+<?php 
+/* router */
+
+$page = null; 
+
+if (isset($_GET["page"]) ) {
+	$page = $_GET["page"]; 
+} else 
+	$page="home"; 
+
+?>
+
 <html lang="en">
 
 	<?php include("head.php"); ?>
@@ -10,18 +22,21 @@
 			<inner-column>
 				<h1>cocktails</h1>
 
-				<nav class="site-menu">
-					<a href="">home</a>
-					<a href="">cocktail list</a>
-				</nav>
-	
+				<?php include('site-menu.php'); ?>
+
 			</inner-column>
 		</header>
 	
 		<main>
 			<inner-column>
-				<h2>Let's make some drinks!</h2>
-				
+				<?php 
+					if ($page == "home") {
+						include("home.php");
+					}
+					if ($page == "list") {
+						include("list.php");
+					}
+				?>	
 			</inner-column>
 		</main>
 	
