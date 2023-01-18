@@ -1,18 +1,30 @@
+<!doctype html>
 
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>cocktails</title>
-		<meta name="description" content="responsive web design">
-		<meta property="og:image" content="personal-site/images/jess-logo.png">
-		
-		<link rel="stylesheet" href="css/style.css">
-	</head>
 
+	<?php include("head.php"); ?>
 
-<h1>Let's build some drinks!</h1>
+<body>
+	
+		<header>
+			<inner-column>
+				<h1>cocktails</h1>
 
-<h2>Pick your liquor of choice and get to mixin'!</h2>
-
+				<nav class="site-menu">
+					<a href="">home</a>
+					<a href="">cocktail list</a>
+				</nav>
+	
+			</inner-column>
+		</header>
+	
+		<main>
+			<inner-column>
+				<h2>Let's make some drinks!</h2>
+				
+			</inner-column>
+		</main>
+	
+	</body>
+	
 </html>
