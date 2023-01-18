@@ -14,6 +14,23 @@
 -what is returned is just a string
 -it's important to remember that you're making all of these dynamic decisions based on that simple string of characters 
 
+**None of this made any sense so I met with the team and rewatched the video and now I feel a lot better.** 
+
+- monster-zone/?name=derek --the query parameter starts after the question mark 
+- this is creating a whole new url 
+	it was monster-zone and now it's monster-zone/?derek=name
+
+-$_GET[] is an associative array 
+-$name = $_GET["name"]; 
+
+echo $name; 
+
+-you(the user) might click a button to request items on a page to be built in some order (maybe least expensive to most expensive) -- that request rebuilds the page
+
+-blog example: a blog isn't hundred of html pages that have been typed up by hand. It's a few different templates that are being hydrated by different data. 
+
+-$_GET = an associative array of variables passed to the current script via the URL parameters (aka query string). 
+
 
 ## January 11, 2023
 
