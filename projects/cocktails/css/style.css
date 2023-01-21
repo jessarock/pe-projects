@@ -13,14 +13,11 @@ inner-column {
 	margin-right: auto;
 	max-width: 900px;
 	display: flex;
-	flex-direction: row; 
-	justify-content: space-between;
-	align-items: center;
-
+	flex-direction: column;
 }
 
-header h1 {
-	font-size: 4.5rem;
+ h1 {
+	font-size: 4rem;
 	font-weight: 100;
 }
 
@@ -31,9 +28,7 @@ header h1 {
 }
 
 .site-menu a {
-	padding-top: 10px; 
-	padding-bottom: 10px;
-	padding-left: 20px;
+	padding: 10px;
 	font-size: 1.5rem;
 	font-weight: 500;
 }
@@ -45,10 +40,43 @@ h2 {
 	font-size: 3.5rem;
 	font-weight: 500;
 }
-
 main {
-	padding-top: 100px;
+	padding-top: 50px;
 }
+
+cocktail-card {
+	display: block;
+}
+h3 {
+	font-size: 2rem;
+}
+h4 {
+	font-size: 1.3rem;
+}
+li h2 {
+	padding-top: 15px;
+}
+h2 + h3, h3 + h4 {
+	padding-top: 15px;
+}
+picture {
+	margin: 20px 0px;
+}
+picture img {
+	max-width: 200px;
+}
+li + li {
+	margin-top: 25px;
+}
+li a {
+	padding-top: 15px; 
+	text-decoration: underline;
+}
+li a:hover {
+	font-weight: 700;
+}
+
+
 
 @media (max-width: 1000px) {
 	inner-column {

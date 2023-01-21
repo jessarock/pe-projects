@@ -20,7 +20,6 @@ if (isset($_GET["page"]) ) {
 	
 		<header>
 			<inner-column>
-				<h1>cocktails</h1>
 
 				<?php include('site-menu.php'); ?>
 
@@ -35,6 +34,9 @@ if (isset($_GET["page"]) ) {
 					}
 					if ($page == "list") {
 						include("list.php");
+					}
+					if ($page == "detail") {
+						include("detail.php");
 					}
 				?>	
 			</inner-column>
