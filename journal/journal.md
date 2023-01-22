@@ -1,5 +1,14 @@
 # My learning journal
 
+## January 19, 2023 
+
+**Form Validation** 
+
+-try to use other types of form inputs than just text 
+-don't forget to use pseudocode to write out your logic process 
+-don't forget to initialize or "make some assumptions"
+
+
 ## January 17 & 18, 2023 
 
 **dynamic detail templates and CRUD** 
