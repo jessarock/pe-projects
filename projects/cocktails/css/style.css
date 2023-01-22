@@ -85,13 +85,13 @@ form {
 	border: 2px solid black;
 	border-radius: 5px;
 	padding: 50px 30px;
-	max-width: 350px;
+	max-width: 300px;
 }
 field {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 	gap: 20px;
 
 }
@@ -120,6 +120,9 @@ button {
 button:hover {
 	color: white;
 	background-color: black;
+}
+.error {
+	color: purple;
 }
 
 /*break points*/
