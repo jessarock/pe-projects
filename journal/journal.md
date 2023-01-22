@@ -1,5 +1,18 @@
 # My learning journal
 
+## January 17 & 18, 2023 
+
+**dynamic detail templates and CRUD** 
+
+-getting a detail template through a link :
+	<a href="?page=detail"></a>
+
+-CRUD=create, read, update, medley
+
+-JSON= javascript object notation 
+-cmd + shft + f = finds a word and allows you to replace it with another word through every file on a project 
+
+
 ## January 16, 2023 
 
 **Routing with URL Querystrings**
