@@ -4,26 +4,60 @@
 
 
 body {
-	width: 100vh;
-	background-color: white;
+	min-width: 100vh;
 	font-family: helvetica neue, sans serif;
-
 }
+
 inner-column {
-	max-width: 800px;
-	margin-left: auto;
-	margin-right: auto;
-	display: flex;
-	flex-direction: column;
-	padding: 10px; 
-
-}
-logo {
-	display: flex;
-	font-size: 4rem;
-	font-weight: 100;
-	padding-top: 40px;
+  display: block;
+  max-width: 700px;
+  margin-left: auto; 
+  margin-right: auto; 
 }
 .page-content {
-	
+  font-family: courier;
 }
+header {
+	padding-top: 100px;
+	padding-bottom: 0;
+}
+.triangle-one {
+	position: relative;
+	top: -400px;
+	z-index: -1;
+}
+
+h1 {
+  color: #4b4b4b; 
+  font-size: 3rem;
+  font-family: courier;
+  font-weight: 400;
+}
+.triangle-two {
+	position: relative;
+	bottom: 300px;
+	left: -300px;
+	z-index: -1;
+}
+intro {
+  margin-top: 20px;
+  display: block;
+  font-size: 1.2rem;
+  /*border: 2px solid #4b4b4b;  */
+}
+ul li::marker {
+ color: #6ac4a2;
+ content: "•";
+ font-size: 1rem;
+
+}
+p {
+ line-height: 35px;
+ color: black
+ padding-left: 10px;
+ padding-top: 25px;
+}
+p a {
+  color: #6ac4a2;
+}
+
