@@ -1,16 +1,6 @@
 <!doctype html>
 
-<?php 
-/* router */
-
-$page = null; 
-
-if (isset($_GET["page"]) ) {
-	$page = $_GET["page"]; 
-} else 
-	$page="home"; 
-
-?>
+<?php require("router.php"); ?>
 
 <html lang="en">
 
@@ -28,17 +18,7 @@ if (isset($_GET["page"]) ) {
 	
 		<main>
 			<inner-column>
-				<?php 
-					if ($page == "home") {
-						include("home.php");
-					}
-					if ($page == "list") {
-						include("list.php");
-					}
-					if ($page == "detail") {
-						include("detail.php");
-					}
-				?>	
+				<?php getTemplate($page); ?>
 			</inner-column>
 		</main>
 	

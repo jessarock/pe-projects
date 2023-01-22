@@ -11,20 +11,19 @@ body {
 inner-column {
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 900px;
-	display: flex;
-	flex-direction: column;
+	display: block;
 }
 
  h1 {
 	font-size: 4rem;
 	font-weight: 100;
+	padding-bottom: 10px;
 }
 
 .site-menu {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-start;
 }
 
 .site-menu a {
@@ -37,15 +36,21 @@ a:hover {
 }
 
 h2 {
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 	font-weight: 500;
 }
 main {
 	padding-top: 50px;
 }
 
-cocktail-card {
-	display: block;
+li.cocktail {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	max-width: 450px;
 }
 h3 {
 	font-size: 2rem;
@@ -76,32 +81,81 @@ li a:hover {
 	font-weight: 700;
 }
 
+form {
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 50px 30px;
+	max-width: 350px;
+}
+field {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 20px;
+
+}
+
+field :is(label, input) {
+	display: block;
+}
+
+field + field {
+	margin-top: 20px;
+}
+
+form button {
+	margin-top: 20px; 
+}
+
+label {
+	font-size: 1.3rem;
+}
+
+button {
+	font-size: 1.3rem;
+	background-color: white;
+	border-radius: 5px;
+}
+button:hover {
+	color: white;
+	background-color: black;
+}
+
+/*break points*/
 
 
-@media (max-width: 1000px) {
+@media (min-width: 700px) {
+
 	inner-column {
 		margin-left: auto;
 		margin-right: auto;
-		display: flex;
-		flex-direction: column; 
-		justify-content:;
-		align-items: flex-start; 
-		flex-wrap: wrap;
+		display: block;
+	}
 
-}
-.site-menu a {
+	.site-menu a {
 	padding-top: 20px; 
 	padding-bottom: 10px;
 	padding-left: 10px;
 	font-size: 1.5rem;
 	font-weight: 500;
 }
-main inner-column {
-	display: flex;
 }
- h2 {
-	font-size: 2.5rem;
+@media (min-width: 1200px) {
+	inner-column {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
+li.cocktail {
+	display: inline-grid; 
+	grid-template-columns: 450px 50px 4500px;
+   grid-template-rows: 100px auto 100px; 
+   column-gap: 25px;
+   row-gap: 25px;
+	
+}
+
 
 }
 
