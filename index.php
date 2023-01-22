@@ -27,15 +27,16 @@
     		<ul>
       	<li><p>I design and develop things for the web.</p></li>
       
-      	<li><p>I spend my days learning & enhancing my skillset under the mentorship of <a href="https://perpetual.education/">Perpetual Education</a>.</p></li>
+      	<li><p>I spend my days learning & enhancing my skillset under the mentorship of <a href="https://perpetual.education/" target="_blank">Perpetual Education</a>.</p></li>
         
      		<li><p>I spend my nights creating cocktails behind a bar.</p></li>
       
-      	<li><p>I do a little <a href="https://jessrockwell.substack.com/">writing</a> from time to time about the things I've been learning.</p></li>
+      	<li><p>I do a little <a href="https://jessrockwell.substack.com/" target="_blank">writing</a> from time to time about the things I've been learning.</p></li>
       
-     	 	<li><p>I'd love for you to take a gander at some of my <a href="https://peprojects.dev/alpha-6/jess/projects/">projects</a> and for us to <a href="mailto:jesrock87@gmail.com">chat</a>.</p></li>
+     	 	<li><p>I'd love for you to take a gander at some of my <a href="https://peprojects.dev/alpha-6/jess/projects/" target="_blank">projects</a> and for us to <a href="mailto:jesrock87@gmail.com" target="_blank">chat</a>.</p></li>
 
-     	 	<li><p></p></li>
+     	 	<li><p>Feel free to peep my <a href="https://github.com/jessarock" target="_blank">github</a> if that's your thing.</p></li>
+     	
      	 </ul>
    	 </intro>
    
