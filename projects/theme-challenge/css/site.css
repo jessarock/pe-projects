@@ -1,0 +1,238 @@
+@import "meyer-reset.css";
+@import "setup.css";
+ 
+ /* STRUCTURE */
+	body {
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		font-family: helvetica;
+	}
+	header {
+		background-color: #88dfbd;
+	}
+	inner-column {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 800px; 
+		display: flex;
+		flex-direction: column;
+		border: 2px solid black;
+	}
+
+	/* MASTHEAD MODULE */
+
+	masthead {
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+	}
+	nav {
+		border: 2px solid black;
+		display: flex;
+		padding: 10px;
+	}
+	nav a {
+		border: 2px solid black;
+		padding: 10px;
+	}
+
+	
+	/* GRAPHIC DIPTYCH MODULE	*/
+
+	section.diptych {
+		background-color: #4bdeff;
+	}
+
+	graphic-diptych {
+		display: flex;
+		flex-direction: column;
+		border: 2px solid black;
+		padding: 10px;
+	}
+	text {
+		border: 2px solid black;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+	graphic-diptych picture {
+		max-width: 600px;
+		border: 2px solid black;
+		padding: 10px;
+		margin-top: 20px;
+	}
+	graphic-diptych h2 {
+		font-size: 2rem;
+		border: 2px solid black;
+		padding: 10px;
+	}
+	graphic-diptych p {
+		font-size: 1.1rem;
+		line-height: 18px;
+		border: 2px solid black;
+		padding: 10px;
+
+	}
+	text .loud-voice {
+		margin: 10px;
+	}
+	graphic-diptych .loud-voice + .calm-voice {
+		margin: 10px 10px 20px 10px ;
+	}
+
+/* CALL TO ACTION  */
+
+	section.call-one {
+		background-color: #f78ae0;
+	}
+
+	cta-one {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		padding: 20px;
+	}
+	cta-one h2 {
+		font-size: 2rem;
+		border: 2px solid black;
+		padding: 10px;
+		margin-top: 30px;
+	}
+	cta-one p {
+		font-size: 1.1rem;
+		line-height: 18px;
+		border: 2px solid black;
+		padding: 10px;
+	}
+	cta-one a {
+		font-weight: 600;
+		color: white;
+		background-color: black;
+		text-transform: uppercase;
+		padding: 10px;
+		max-width: 22ch;
+		text-align: center;
+		margin-bottom: 20px;
+		
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px) {
+	masthead {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+	}
+
+	graphic-diptych {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+	graphic-diptych picture {
+		max-width: 300px;
+		margin-bottom: 20px;
+	}
+	graphic-diptych text {
+		max-width: 55ch;
+	}
+
+
+/*	CALL TO ACTION ONE*/
+
+	.cta-text {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 20px;
+		border: 2px solid black;
+	}
+	.cta-link {
+		display: flex;
+		flex-direction: row; 
+		justify-content: space-around;
+		align-items: center;
+	}
+	cta-one .loud-voice, cta-one .calm-voice {
+		max-width: ;
+	}
+
+}
+
+@media (min-width: 1000px) {
+	inner-column {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1000px; 
+		display: flex;
+		flex-direction: column;
+		border: 2px solid black;
+	}
+
+	graphic-diptych {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+	graphic-diptych picture {
+		max-width: 500px;
+		margin-bottom: 20px;
+	}
+	graphic-diptych text {
+		max-width: 55ch;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
