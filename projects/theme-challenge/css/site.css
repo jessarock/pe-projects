@@ -93,13 +93,19 @@
 		gap: 30px;
 		padding: 20px;
 	}
-	cta-one h2 {
+	.cta-text {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	
+	.cta-text h2 {
 		font-size: 2rem;
 		border: 2px solid black;
 		padding: 10px;
 		margin-top: 30px;
 	}
-	cta-one p {
+	.cta-text p {
 		font-size: 1.1rem;
 		line-height: 18px;
 		border: 2px solid black;
@@ -173,16 +179,11 @@
 	.cta-text {
 		display: flex;
 		flex-direction: column;
-		align-items: center;
 		gap: 20px;
-		border: 2px solid black;
 	}
-	.cta-link {
-		display: flex;
-		flex-direction: row; 
-		justify-content: space-around;
-		align-items: center;
-	}
+	.cta-text, .cta-link {
+		margin: 0 70px;
+	} 
 	cta-one .loud-voice, cta-one .calm-voice {
 		max-width: ;
 	}
