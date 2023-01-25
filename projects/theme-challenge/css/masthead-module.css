@@ -1,0 +1,27 @@
+	
+/* MASTHEAD MODULE */
+
+
+	masthead {
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+	}
+	nav {
+		border: 2px solid black;
+		display: flex;
+		padding: 10px;
+	}
+	nav a {
+		border: 2px solid black;
+		padding: 10px;
+	}
+
+
+	@media (min-width: 600px) {
+	masthead {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+	}

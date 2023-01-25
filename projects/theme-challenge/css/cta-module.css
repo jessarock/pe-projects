@@ -1,0 +1,36 @@
+/* CALL TO ACTION ONE  */
+
+	section.call-one {
+		background-color: #f78ae0;
+	}
+
+	cta-one {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
+		padding: 20px;
+	}
+	.cta-text {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	
+
+@media (min-width: 700px) {
+
+
+/*	CALL TO ACTION ONE*/
+
+	.cta-text {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	.cta-text, .cta-link {
+		margin: 0 70px;
+	} 
+	cta-one .loud-voice {
+		width: 30ch;
+	} 
+}

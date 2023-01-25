@@ -1,0 +1,57 @@
+	/* GRAPHIC DIPTYCH MODULE	*/
+
+	section.diptych {
+		background-color: #4bdeff;
+	}
+
+	graphic-diptych {
+		display: flex;
+		flex-direction: column;
+		border: 2px solid black;
+		padding: 10px;
+	}
+	text {
+		border: 2px solid black;
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 20px;
+	}
+	graphic-diptych picture {
+		max-width: 600px;
+		border: 2px solid black;
+		padding: 10px;
+		margin-top: 20px;
+	}
+
+	@media (min-width: 700px) {
+	
+	graphic-diptych {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+	graphic-diptych picture {
+		max-width: 300px;
+		margin-bottom: 20px;
+	}
+	graphic-diptych text {
+		max-width: 55ch;
+	}
+
+	@media (min-width: 1000px) {
+
+	graphic-diptych {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+		align-items: center;
+	}
+	graphic-diptych picture {
+		max-width: 500px;
+		margin-bottom: 20px;
+	}
+	graphic-diptych text {
+		max-width: 55ch;
+	}
+}

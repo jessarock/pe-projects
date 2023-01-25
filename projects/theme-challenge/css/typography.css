@@ -1,0 +1,47 @@
+
+/* DIPTYCH */
+
+graphic-diptych h2 {
+		font-size: 2rem;
+		border: 2px solid black;
+		padding: 10px;
+	}
+	graphic-diptych p {
+		font-size: 1.1rem;
+		line-height: 18px;
+		border: 2px solid black;
+		padding: 10px;
+
+	}
+	text .loud-voice {
+		margin: 10px;
+	}
+	graphic-diptych .loud-voice + .calm-voice {
+		margin: 10px 10px 20px 10px ;
+	}
+
+/*	CALL TO ACTION ONE */
+
+	.cta-text h2 {
+		font-size: 2rem;
+		border: 2px solid black;
+		padding: 10px;
+		margin-top: 30px;
+	}
+	.cta-text p {
+		font-size: 1.1rem;
+		line-height: 18px;
+		border: 2px solid black;
+		padding: 10px;
+	}
+	cta-one a {
+		font-weight: 600;
+		color: white;
+		background-color: black;
+		text-transform: uppercase;
+		padding: 10px;
+		max-width: 22ch;
+		text-align: center;
+		margin-bottom: 20px;
+		
+	}

@@ -57,50 +57,32 @@
 										</div>
 									</cta-one>
 
+								</inner-column>
+							</section>
 
+							<section class="article-grid">
+								<inner-column>
+									<article-grid>
 
+										<article-header>
+											<h2 class="loud-voice"></h2>
+
+											<p class="calm-voice"></p>
+										</article-header>
+
+										<article-card> 
+											<h2 class="loud-voice"></h2>
+
+											<p class="calm-voice"></p>
+
+											<button></button>
+										</article-card>
+
+								</article-grid>
 								</inner-column>
 							</section>
 						</main>
 				
-			
-			
-			
-		
-		
-
-
-
-
-
-
-
-
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
