@@ -4,9 +4,9 @@
 		<article-grid>
 
 			<article-header>
-				<h2 class="loud-voice"></h2>
+				<h2 class="loud-voice">This is an "article grid" module. This is its heading.</h2>
 
-				<p class="calm-voice"></p>
+				<p class="calm-voice">Again, we just totally made this up. It's a box with boxes in it.</p>
 			</article-header>
 			
 			<ul>

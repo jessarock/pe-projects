@@ -29,6 +29,46 @@
 		border: 2px solid black;
 	}
 
+/* ARTICLE GRID MODULE */
+
+.article-grid {
+	background-color: #e5704c;
+}
+article-grid {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+article-header {
+	border: 2px solid black;
+	padding: 10px;
+	margin-top: 60px;
+}
+.loud-voice + .calm-voice {
+	margin-top: 20px;
+}
+
+/* ARTICLE CARD MODULE */
+
+article-card {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+	article-card a {
+		font-weight: 600;
+		color: white;
+		background-color: black;
+		text-transform: uppercase;
+		padding: 10px;
+		max-width: 8ch;
+		text-align: center;
+		margin: 15px 0;
+	}
+
 
 
 
