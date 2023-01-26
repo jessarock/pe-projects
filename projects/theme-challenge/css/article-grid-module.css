@@ -1,0 +1,22 @@
+
+/* ARTICLE GRID MODULE */
+
+@import "article-card-module.css";
+
+.article-grid {
+	background-color: #e5704c;
+	padding: 60px 0; 
+}
+article-grid {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+article-header {
+	border: 2px solid black;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.loud-voice + .calm-voice {
+	margin-top: 20px;
+}

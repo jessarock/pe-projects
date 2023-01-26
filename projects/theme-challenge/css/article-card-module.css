@@ -1,0 +1,29 @@
+
+/* ARTICLE CARD MODULE */
+
+article-card {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid black;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+	article-card a {
+		font-weight: 600;
+		color: white;
+		background-color: black;
+		text-transform: uppercase;
+		padding: 10px;
+		max-width: 8ch;
+		text-align: center;
+		margin: 15px 0;
+	}
+
+	@media (min-width: 700px) {
+		li {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+	}
