@@ -20,10 +20,4 @@ article-card {
 		margin: 15px 0;
 	}
 
-	@media (min-width: 700px) {
-		li {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-		}
-	}
+	

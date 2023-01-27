@@ -20,3 +20,12 @@ article-header {
 .loud-voice + .calm-voice {
 	margin-top: 20px;
 }
+@media (min-width: 700px) {
+		ul {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 10px;
+		}
+
+		
+	}
