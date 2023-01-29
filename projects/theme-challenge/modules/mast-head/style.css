@@ -1,0 +1,50 @@
+
+mast-head {
+	display: block;
+	/*border: 4px solid blue;*/
+}
+
+mast-head .logo {
+	max-width: 180px;
+}
+
+mast-head .logo * {
+	fill: #e836a1;
+}
+
+mast-head nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+mast-head nav .home {
+	padding: 10px 0;
+}
+
+mast-head nav a:not(.home) {
+	padding: .5em 1em;
+}
+
+nav li:nth-of-type(n+2) a:hover {
+	text-decoration: underline;
+	text-underline-offset: 10px; 
+	text-underline-width: 10px;
+	text-decoration-color: #e836a1;
+	transition: text-decoration-color 1s;
+}
+
+mast-head .button:hover {
+	background-color: #2b4790;
+}
+
+@media (min-width:  600px) {
+	mast-head {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+}
+
+

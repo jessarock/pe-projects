@@ -1,0 +1,19 @@
+@import "forms.css";
+
+/* buttons and icons and smaller reusable bits here */
+
+.button {
+	display: block;
+
+	color: #efefef;
+
+	font-family: helvetica;
+	font-size: 1rem;
+	line-height: 1.4;
+
+	padding: 0.5em 1em;
+	background-color: var(--color);
+	min-width: 120px;
+	text-align: center;
+	border-radius: 12px;
+}

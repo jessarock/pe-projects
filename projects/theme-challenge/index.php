@@ -1,27 +1,74 @@
-
-
 <!doctype html>
 
-	<html lang="en">
-		<?php include('php/head.php'); ?>
+<html lang='en' class='special-magic no-js'>
 
-		<body>
+	<head>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
 
-			<?php include('php/masthead-module.php'); ?>
+		<title>Theme challenge master file</title>
+		<meta name='description' content='Theme challenge master file'>
+		<meta property='og:image' content='Can you research emulate a website for a specific niche industry?'>
 
-			<main class="page-content">
-							
-				<?php include('php/diptych-module.php'); ?>
-
-				<?php include('php/cta-module.php'); ?>
-
-				<?php include('php/article-grid.php'); ?>
-						
-
-			</main>
-				
+		<link rel='stylesheet' href='styles/site.css'>
+	</head>
 
 
+	<body>
+		<header>
+		<inner-column>
+			
+			<?php include('modules/mast-head/template.php'); ?>
 
-		</body>
-	</html>
+		</inner-column>	
+		</header>
+
+		<main>
+
+			<section class='welcome' id='welcome'>
+			<inner-column>
+
+				<?php include('modules/graphic-diptych/template.php'); ?>
+
+			</inner-column>
+			</section>
+
+
+			<section class='sign-up' id='sign-up'>
+			<inner-column>
+
+				<?php include('modules/call-to-action/template.php'); ?>
+
+			</inner-column>
+			</section>
+
+
+			<section class='latest' id='latest'>
+			<inner-column>
+
+				<?php include('modules/articles-intro/template.php'); ?>
+
+			</inner-column>
+			</section>
+
+
+			<section class='get-involved' id='get-involved'>
+			<inner-column>
+
+				<?php include('modules/call-to-action/template.php'); ?>
+
+			</inner-column>
+			</section>
+
+		</main>
+
+		<footer>
+		<inner-column>
+			
+			<?php include('modules/site-map/template.php'); ?>
+
+		</inner-column>
+		</footer>
+	</body>
+
+</html>
