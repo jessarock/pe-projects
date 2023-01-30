@@ -32,6 +32,7 @@
     		<li><a href="https://peprojects.dev/alpha-6/jess/monsters/" target="_blank">monster adoption agency</a></li>
     		<li><a href="https://peprojects.dev/alpha-6/jess/projects/e4p/" target="_blank">exercises for programmers</a></li>
     		<li><a href="https://peprojects.dev/alpha-6/jess/projects/cocktails/?page=home" target="_blank">learning dynamic templating</a></li>
+    		<li><a href="https://peprojects.dev/alpha-6/jess/projects/theme-challenge/" target="_blank">theme challenge</a></li>
     		</ul>
    
      </inner-column>

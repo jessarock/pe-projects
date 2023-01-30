@@ -61,7 +61,7 @@ section.get-involved .button:hover {
 
 @media (prefers-color-scheme: light) {
 	section.sign-up {
-		background-color: var(--color);
+		background-color: var(--white);
 		color: var(--black);
 	}
 
@@ -71,8 +71,8 @@ section.get-involved .button:hover {
 	}
 
 	section.get-involved {
-		background-color: var(--black);
-		color: var(--white);
+		background-color: var(--highlight);
+		color: var(--black);
 	}
 }
 
