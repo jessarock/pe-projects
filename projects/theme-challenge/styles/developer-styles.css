@@ -9,14 +9,14 @@ body inner-column {
 	padding: 2px;
 }
 
-section:nth-of-type(odd) {
-	background-color: rgba(0,0,0,.03);
+section:nth-of-type(2) {
+	background-color: rgba(240, 241, 244, 1);
 }
 
-picture img {
+/*picture img {
 	opacity: 0;
-}
+}*/
 
-picture {
+/*picture {
 	background-color: var(--shadow);
-}
+}*/

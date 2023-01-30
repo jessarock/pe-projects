@@ -1,7 +1,7 @@
 
 html {
 	--black: #111111;
-	--white: #efefef;
+	--white: #ffffff;
 
 	--neutral-stuffs: gray;
 
@@ -19,9 +19,9 @@ html {
 	--tight: 800px;
 }
 
-@media (prefers-color-scheme: dark) {
+/*@media (prefers-color-scheme: dark) {
 	html {
 		--paper: #231a1a;
 		--ink: #ffffe2;
 	}
-}
+}*/

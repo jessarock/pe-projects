@@ -6,11 +6,10 @@
 ?>
 
 <article class='article-card'>
-	<picture>
-		<img src='images/<?=$thumbnail?>' alt='$todo'>
-	</picture>
-
 	<text-content>
+		<picture>
+			<img src='images/icon.png'>
+		</picture>
 		<h1 class='title strong-voice'><?=$heading?></h1>
 
 		<p class='teaser'><?=$description?></p>

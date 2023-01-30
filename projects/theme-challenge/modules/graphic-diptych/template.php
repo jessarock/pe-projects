@@ -2,7 +2,10 @@
 <graphic-diptych>
 
 	<picture>
-		<img src='https://peprojects.dev/images/landscape.jpg' alt='$todo'>
+		<img src='images/server.png'>
+	</picture>
+	<picture>
+	<img src='images/pos-order-image.png'>
 	</picture>
 	
 	<text-content>

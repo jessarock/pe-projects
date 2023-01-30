@@ -6,13 +6,26 @@
 	flex-direction: column;
 	align-items: flex-start;
 }
+article picture img {
+	max-width: 70px;
+	margin-bottom: 20px;
+}
 
 .article-card text-content {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	background-color: #ffffff;
+	border-radius: 30px;
+	padding: 20px;
+	box-shadow: -.5em .5em .4em rgba(0, 0, 0, .1);
 }
 
 .article-card a {
 	margin-top: 20px;
 }
+
+article .button:hover {
+	background-color: #2b4790;
+}
+

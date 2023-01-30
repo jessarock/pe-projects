@@ -31,7 +31,8 @@ nav li:nth-of-type(n+2) a:hover {
 	text-underline-offset: 10px; 
 	text-underline-width: 10px;
 	text-decoration-color: #e836a1;
-	transition: text-decoration-color 1s;
+	text-decoration-thickness: 2px;
+	transition: text-decoration-color 600ms;
 }
 
 mast-head .button:hover {

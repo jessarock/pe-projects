@@ -33,16 +33,6 @@
 			</inner-column>
 			</section>
 
-
-			<section class='sign-up' id='sign-up'>
-			<inner-column>
-
-				<?php include('modules/call-to-action/template.php'); ?>
-
-			</inner-column>
-			</section>
-
-
 			<section class='latest' id='latest'>
 			<inner-column>
 
@@ -51,6 +41,14 @@
 			</inner-column>
 			</section>
 
+
+			<section class='sign-up' id='sign-up'>
+			<inner-column>
+
+				<?php include('modules/call-to-action/template.php'); ?>
+
+			</inner-column>
+			</section>
 
 			<section class='get-involved' id='get-involved'>
 			<inner-column>

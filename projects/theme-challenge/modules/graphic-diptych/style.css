@@ -13,7 +13,7 @@ graphic-diptych p {
 
 @media (min-width:  700px) {
 	graphic-diptych {
-		flex-direction: row;
+		flex-direction: row-reverse;
 		align-items: center;
 	}
 
