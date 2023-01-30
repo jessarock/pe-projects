@@ -26,13 +26,25 @@ mast-head nav a:not(.home) {
 	padding: .5em 1em;
 }
 
-nav li:nth-of-type(n+2) a:hover {
-	text-decoration: underline;
-	text-underline-offset: 10px; 
-	text-underline-width: 10px;
-	text-decoration-color: #e836a1;
-	text-decoration-thickness: 2px;
-	transition: text-decoration-color 600ms;
+
+
+
+/*link and button styling*/
+
+mast-head li:nth-of-type(n+2) a{
+text-decoration: none;
+background-image: linear-gradient(#e836a1, #e836a1);
+background-size: 0% 0.1em;
+background-position-y: 100%;
+background-position-x: 50%;
+background-repeat: no-repeat;
+transition: background-size 0.2s ease-in-out;
+}
+
+mast-head li:nth-of-type(n+2) a:hover,
+mast-head li:nth-of-type(n+2) a:focus,
+mast-head li:nth-of-type(n+2) a:active {
+background-size: 40% 0.15em;
 }
 
 mast-head .button:hover {

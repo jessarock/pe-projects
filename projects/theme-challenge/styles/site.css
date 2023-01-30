@@ -54,7 +54,7 @@ section.get-involved .button {
 
 
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
 	section.sign-up {
 		background-color: var(--color);
 		color: var(--black);
