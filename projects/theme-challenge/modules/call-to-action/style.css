@@ -11,3 +11,6 @@ call-to-action {
 call-to-action .button {
 	margin-top: 20px;
 }
+call-to-action .button:hover {
+	background-color: #2b4790;
+}

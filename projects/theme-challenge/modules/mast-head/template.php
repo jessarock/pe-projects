@@ -10,15 +10,15 @@
 			</li>
 
 			<li>
-				<a href='#'>Some page</a>
+				<a class="page-link" href='#'>Some page</a>
 			</li>
 
 			<li>
-				<a href='#'>Some page</a>
+				<a class="page-link" href='#'>Some page</a>
 			</li>
 
 			<li>
-				<a href='#'>Some page</a>
+				<a class="page-link" href='#'>Some page</a>
 			</li>
 		</ul>
 	</nav>

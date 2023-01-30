@@ -18,7 +18,7 @@ article picture img {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	background-color: #ffffff;
+	background-color: #fff;
 	border-radius: 30px;
 	padding: 20px;
 	box-shadow: -.5em .5em .4em rgba(0, 0, 0, .2);
@@ -29,7 +29,7 @@ article picture img {
 }
 
 .article-card:hover {
-	transform: scale(1.1);
+	transform: scale(1.05);
 }
 
 

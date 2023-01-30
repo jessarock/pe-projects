@@ -36,7 +36,7 @@ text-decoration: none;
 background-image: linear-gradient(#e836a1, #e836a1);
 background-size: 0% 0.1em;
 background-position-y: 100%;
-background-position-x: 50%;
+background-position-x: 20%;
 background-repeat: no-repeat;
 transition: background-size 0.2s ease-in-out;
 }
@@ -44,7 +44,7 @@ transition: background-size 0.2s ease-in-out;
 mast-head li:nth-of-type(n+2) a:hover,
 mast-head li:nth-of-type(n+2) a:focus,
 mast-head li:nth-of-type(n+2) a:active {
-background-size: 40% 0.15em;
+background-size: 50% 0.15em;
 }
 
 mast-head .button:hover {
@@ -58,6 +58,24 @@ mast-head .button:hover {
 		justify-content: space-between;
 		align-items: center;
 	}
+}
+
+@media (min-width: 700px) {
+	mast-head li:nth-of-type(n+2) a{
+text-decoration: none;
+background-image: linear-gradient(#e836a1, #e836a1);
+background-size: 0% 0.1em;
+background-position-y: 100%;
+background-position-x: 50%;
+background-repeat: no-repeat;
+transition: background-size 0.2s ease-in-out;
+}
+
+mast-head li:nth-of-type(n+2) a:hover,
+mast-head li:nth-of-type(n+2) a:focus,
+mast-head li:nth-of-type(n+2) a:active {
+background-size: 40% 0.15em;
+}
 }
 
 
