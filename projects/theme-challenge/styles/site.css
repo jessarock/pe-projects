@@ -50,15 +50,13 @@ section.get-involved {
 section.get-involved .button {
 	background-color: var(--ink);
 	color: var(--paper);
-	border: 3px solid var(--ink);
-	transition: border .3s ease-in-out;
 	transition: color .3s ease-in-out;
 	
 }
 section.get-involved .button:hover {
-	border: 3px solid #e836a1;
-	color: #e836a1 ;
+	color: #efefef;
 }
+
 
 
 @media (prefers-color-scheme: light) {
