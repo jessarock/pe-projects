@@ -45,6 +45,10 @@
 			<section class='sign-up' id='sign-up'>
 			<inner-column>
 
+				<picture> 
+					<img src='images/phone.png'>
+				</picture>
+
 				<?php include('modules/call-to-action/template.php'); ?>
 
 			</inner-column>

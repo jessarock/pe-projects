@@ -25,7 +25,9 @@
 /* S tuff (modules) */
 @import "modules.css";
 
-/* S ections and more stuff */
+/* Sections and more stuff */
+
+
 
 /* then other contextual styles */
 body {
@@ -33,6 +35,10 @@ body {
 	color: var(--ink);
 }
 
+section.sign-up picture {
+	max-width: 80%;
+	padding-top: 7vh;
+}
 section:is(.sign-up, .get-involved) inner-column {
 	max-width: var(--tight);
 }
@@ -45,6 +51,8 @@ section.get-involved .button {
 	background-color: var(--ink);
 	color: var(--paper);
 }
+
+
 
 @media (prefers-color-scheme: dark) {
 	section.sign-up {
@@ -60,5 +68,17 @@ section.get-involved .button {
 	section.get-involved {
 		background-color: var(--highlight);
 		color: var(--black);
+	}
+}
+
+
+
+@media (min-width: 1000px) {
+	section.sign-up inner-column {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		gap: 40px;
 	}
 }
