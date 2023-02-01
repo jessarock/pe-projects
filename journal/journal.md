@@ -1,5 +1,19 @@
 # My learning journal
 
+## January 30 & 31, 2023 
+
+**Wordpress** 
+
+-plugins - chunks of PHP other developers have created and tested that can be used 
+
+-framework- a framework should help you- it's a guide- if it's not helping you then it has failed and should be removed 
+
+-the index.php is the entry point for the theme
+
+-most projects have a readme file 
+
+-sass = syntactically awesome style sheets- superset of css 
+
 ## January 19, 2023 
 
 **Form Validation** 
