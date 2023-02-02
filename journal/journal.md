@@ -1,5 +1,32 @@
 # My learning journal
 
+## February 1, 2023 
+
+**Using ACFs in templates & creating custom post types** 
+
+-wordpress generates JSON data 
+
+- posts=form building machine 
+
+-CPT=custom post type 
+-custom fields-> add new field group ->"cocktail fields"
+	-WP will add a scret behind the scenes unique id 
+
+prepend=something before like a dollar sign 
+append=something after like a cents sign 
+-you probably want to set a character limit 
+
+postype=cocktail 
+
+hide on screen: hide content editor 
+
+-create template folder 
+	-create components folder within templates 
+
+ACF has its own layer on top of WP to help us get things 
+
+the_field and get_field are two different things 
+
 ## January 30 & 31, 2023 
 
 **Wordpress** 
