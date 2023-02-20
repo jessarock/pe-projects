@@ -11,17 +11,18 @@
 					$currentPage = $_GET["page"];
 
 					if ($currentPage == "home") {
-						echo "<h1>welcome</h1>";
+						include('templates/pages/welcome.php');
 					}
 					if ($currentPage == "about") {
-						echo "<h1>something about me</h1>";
+						include('templates/pages/about.php');
 					}	
 					if ($currentPage == "contact") {
-						echo "<h1>contact me</h1>";
+						include('templates/pages/contact.php');
 					} 
+					if ($currentPage == "projects") {
+						include('templates/pages/projects.php');
+					}
 				
-
-
 				?>
 
 
