@@ -22,6 +22,9 @@
 					if ($currentPage == "projects") {
 						include('templates/pages/projects.php');
 					}
+					if ($currentPage == "project") {
+						include('templates/pages/project.php');
+					}
 				
 				?>
 

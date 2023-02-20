@@ -32,3 +32,9 @@ body {
 	max-width: 300px;
 	border-bottom-right-radius: 30px;
 }
+
+.site-menu ul {
+	display: flex;
+	flex-direction: row;
+	
+}
