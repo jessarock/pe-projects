@@ -1,0 +1,16 @@
+{
+	"id": "home",
+	"heading": "Welcome",
+	"sections": [
+		{
+			"module": "generic-text",
+			"heading": "Example Heading",
+			"content": "Example Content"
+		},
+		{
+			"module": "generic-text",
+			"heading": "Example Heading",
+			"content": "Example Content"
+		}
+	]
+}
