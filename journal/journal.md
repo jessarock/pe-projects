@@ -1,5 +1,38 @@
 # My learning journal
 
+## March 6, 2023
+
+**Intro to Javascripts and the browser console**
+
+-client: a funny name for an interface (hardware or software) that gives you access to a service provided by a "server" (another computer somewhere else). 
+-When you're using a web application you are interacting with the client side of a client/server relationship. 
+
+-you can write js in the browser because it's run in the browser 
+
+**how it works**
+
+var name = "jess"; 
+
+-a string of characters is being stored in memory (creating a value)
+-creating a reference 
+-pointing reference to the string of characters in memory 
+
+var keyword lets you know it's a variable 
+
+-once a variable is declared you don't ahve to keep using the var keyword 
+- clearing the console just clears the screen. The browser will retain everything in memory until you refresh the browser. 
+
++ <-- used to concatenate 
+
+.push <-- function used to add to a list of things (array)
+
+-objects are the same as an associative array in php and are notated with curly braces {}
+-objects can be more than key: value pairs- they can have arrays, objects, and functions as well 
+-if you type the word "console" into the browser a list of built in functions appears
+-console.log() and console.clear() are the ones we will use right now 
+-a function that belongs to an object is referred to as a "method" 
+- log and clear are methods of the console object 
+
 ## February 1, 2023 
 
 **Using ACFs in templates & creating custom post types** 

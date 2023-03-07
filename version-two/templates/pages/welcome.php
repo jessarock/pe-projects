@@ -14,5 +14,7 @@
 <section>
 	<inner-column>
 		<h1 class="loud-voice"><?=$pageData["heading"]?></h1>
+
+		<h2><?=$pageData["sections[0]"]?></h2>
 	</inner-column>
 </section>
