@@ -2,7 +2,7 @@
 
 ## March 6, 2023
 
-**Intro to Javascripts and the browser console**
+**Intro to Javascript and the browser console**
 
 -client: a funny name for an interface (hardware or software) that gives you access to a service provided by a "server" (another computer somewhere else). 
 -When you're using a web application you are interacting with the client side of a client/server relationship. 
