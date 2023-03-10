@@ -1,5 +1,29 @@
 # My learning journal
 
+## March 7 & 8, 2023 
+
+**The Document Object Model** 
+
+-DOM- a programming API (application programming interface) for HTML and XML documents
+
+-API is a set of action points 
+
+-think of the DOM as an object 
+
+-working in the DOM involves lots of getting info and setting info 
+
+-querySelector() <--allows you to look for an element in a document 
+
+-the DOM is an interface to webpages- it is essentially an API to the page- allowing programs to read and manipulate the page's content, structure, and styles. 
+
+-classList <--returns the classes 
+
+-document.createElement('h1'); <--this is allowing you to create an h1 element 
+
+-headingOne.classList.add('my favorite heading'); <--allows you to add a class to an element that is set to the variable of "headingOne"
+
+-document.body.appendChild(headingOne); <-- paints the element onto the page
+
 ## March 6, 2023
 
 **Intro to Javascript and the browser console**
