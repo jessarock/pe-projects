@@ -1,0 +1,89 @@
+<!doctype html> 
+
+<html> 
+	<head>
+		<meta charset = 'utf-8'>
+		<title>JS Day 4</title>
+	</head>
+
+
+	<body>
+		
+
+		
+	
+
+
+		<script>
+
+			var heading = document.createElement('h1'); 
+			heading.classList.add('page-heading'); 
+			heading.textContent = "These are my coworkers."; 
+			heading.style.fontFamily = "sans-serif"; 
+			document.body.appendChild(heading); 
+	
+			var coworkerArray = [
+				{
+					name: "MaryAlice", 
+					jobTitle: "Director of Operations", 
+
+				}, 
+				{
+					name: "Aaron", 
+					jobTitle: "Owner/Future Ops", 
+				}, 
+				{
+					name: "Emily", 
+					jobTitle: "Events Manager",
+				},
+				{
+					name: "Monica", 
+					jobTitle: "Acountant/Controller",
+				},
+				{
+					name: "Lazlo", 
+					jobTitle: "Beverage Director",
+				},
+				{
+					name: "Emma", 
+					jobTitle: "Bookkeeper", 
+				}, 
+				{
+					name: "Salem", 
+					jobTitle: "Business Developer", 
+				}, 
+				{
+					name: "Deana", 
+					jobTitle: "Operations Manager", 
+				}, 
+				{
+					name: "Nicky", 
+					jobTitle: "Sound Engineer", 
+				}
+			]; 
+			
+
+
+			coworkerArray.forEach( function(coworker, index, coworkerArray) {
+
+				var coworkers = document.createElement('ul'); 
+				coworkers.classList.add('coworker-list'); 
+				var firstName = document.createElement('li'); 
+				firstName.textContent = "Name: " + coworker.name; 
+				var job = document.createElement('li'); 
+				job.textContent = "Job Title: " + coworker.jobTitle; 
+
+				document.body.appendChild(firstName); 
+				document.body.appendChild(job); 
+
+
+				firstName.style.fontFamily = "sans-serif";
+				firstName.style.paddingTop = "10px";
+				job.style.fontFamily = "sans-serif";
+
+				});
+					
+	
+		</script>
+	</body>
+</html>
