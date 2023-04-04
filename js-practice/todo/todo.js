@@ -1,37 +1,50 @@
 
 
+const todoApp = {
 
-function print(note = "") {
-	console.log(`---------- ${note}`); 
-	console.log("To Do List: ", todoList); 
-}
+	todoList: [], 
+	idGenerator: 0, 
+
+	print: function(note = "") {
+		console.log(`---- ${note}`); 
+		console.log("To do List: ", this.todoList);
+	}, 
+
+	add: function(content) {
+		const todoItem = {
+			id: `a-${this.idGenerator++}`, 
+			content: content, 
+		}; 
+		this.todoList.push(todoItem); //<--unsure what spread it out means
+		this.print(`added ${content}`); 
+	}, 
+
+	remove: function(id) {
+		var todoItem = {};
+		this.print(`removed ${this.todoList[id].content}`);
+		this.todoList.splice(id, 1); 
+	}, 
+
+	complete: function(id) {
+		this.todoList[id].complete = true; 
+		this.print(`completed ${this.todoList[id].content}`);
+	}, 
+};
 
 
-const todoList = [];
-var count = 0; 
 
-function add(content) {
-	const todoItem = {
-		id: `a-${count++}`, 
-		content: content, 
-	};
-	todoList.push(todoItem); 
-	print(`added ${content}`); 
-} 
+todoApp.add("eat dinner"); 
+todoApp.add("feed the dog"); 
+todoApp.add("drink water"); 
+todoApp.add("practice javascript"); 
+todoApp.add("drink more water"); 
+todoApp.add("go to sleep"); 
 
-function remove(id) {
-	var todoItem = {};
-	print(`removed ${todoList[id].content}`); 
-	todoList.splice(id, 1); 
-}
+todoApp.remove(3); 
 
-function complete(id) {
-	todoList[id].complete = true; 
-	print(`completed ${todoList[id].content}`); 
+todoApp.complete(2); 
 
-}
-
-add("eat dinner"); 
+/*add("eat dinner"); 
 add("feed the dog"); 
 add("drink water"); 
 add("practice javascript"); 
@@ -40,7 +53,7 @@ add("go to sleep");
 
 remove(2); 
 
-complete(0);
+complete(0);*/ 
 
 
 

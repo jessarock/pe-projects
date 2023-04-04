@@ -1,0 +1,36 @@
+@import "meyer-reset.css";
+@import "setup.css";
+
+inner-column {
+  display: block;
+  max-width: 700px;
+  margin-left: auto; 
+  margin-right: auto; 
+}
+.page-content {
+  font-family: courier;
+}
+header {
+  background-color: #6ac4a2;
+  padding: 30px;
+}
+h1 {
+  color: #4b4b4b; 
+  font-size: 3rem;
+  font-family: courier;
+  font-weight: 400;
+}
+ul li::marker {
+  color: #6ac4a2;
+  content: "•";
+  font-size: 1rem;
+
+}
+li a {
+  font-size: 1.2rem;
+  padding: 15px;
+}
+a:hover {
+  text-decoration: 3px solid underline;
+  text-decoration-color: #6ac4a2;
+}
