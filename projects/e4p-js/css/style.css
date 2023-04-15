@@ -1,36 +1,143 @@
 @import "meyer-reset.css";
 @import "setup.css";
 
-inner-column {
-  display: block;
+header inner-column {
+  display: flex;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto; 
+
+}
+
+body inner-column {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
   max-width: 700px;
   margin-left: auto; 
   margin-right: auto; 
 }
 .page-content {
-  font-family: courier;
+  font-family: Helvetica; 
+  color: #4b4b4b; 
 }
 header {
-  background-color: #6ac4a2;
   padding: 30px;
 }
-h1 {
-  color: #4b4b4b; 
-  font-size: 3rem;
-  font-family: courier;
-  font-weight: 400;
+li {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 20px; 
 }
-ul li::marker {
-  color: #6ac4a2;
-  content: "•";
-  font-size: 1rem;
+h1 {
+  color: ; 
+  font-size: 5rem;
+  font-family: Helvetica;
+  font-weight: 100;
+}
+.form-heading h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  padding-top: 30px; 
+  padding-bottom: 30px; 
 
 }
-li a {
+form {
+  display: flex; 
+  flex-direction: column; 
+  border: 2px solid #4b4b4b;
+  border-radius: 10px; 
+  padding: 30px;
+  margin-top: 50px; 
+}
+
+field {
+  display: flex;
+  flex-direction: column; 
+}
+label {
+  font-size: 1.2rem; 
+}
+field input {
+  max-width: 50ch; 
+  margin-top: 10px; 
+  margin-bottom: 20px; 
+  padding: 10px;
   font-size: 1.2rem;
-  padding: 15px;
+  border: 1px solid #4b4b4b;
+  border-radius: 5px; 
 }
+output {
+  display: flex;
+  border: 1px solid #4b4b4b;
+  border-radius: 10px; 
+  padding: 50px; 
+  margin-top: 30px; 
+  margin-bottom: 30px; 
+  font-size: 1.2rem;
+}
+
+/*component partial*/ 
+button {
+  max-width: 100px; 
+  padding: 10px 10px; 
+  font-size: 1.1rem;
+  font-family: Helvetica; 
+  color: #fff;
+  background-color: #4b4b4b;
+  border: transparent;
+  border-radius: 5px;
+  margin-bottom: 30px; 
+  box-shadow: -.2em .3em .4em rgba(0, 0, 0, .3);
+  transition: background-color 1s;
+}
+
+button:hover {
+  background-color: #fff;
+  border: #4b4b4b;
+  color: #4b4b4b;
+}
+
+
+
+a {
+  text-decoration: underline;
+  transition: .5s;
+}
+
 a:hover {
-  text-decoration: 3px solid underline;
-  text-decoration-color: #6ac4a2;
+  text-decoration: underline lime;
 }
+
+
+/*BREAKPOINTS*/
+
+
+
+@media (min-width: 600px) {
+  inner-column {
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

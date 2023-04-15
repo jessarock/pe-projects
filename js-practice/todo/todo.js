@@ -44,16 +44,68 @@ todoApp.remove(3);
 
 todoApp.complete(2); 
 
-/*add("eat dinner"); 
-add("feed the dog"); 
-add("drink water"); 
-add("practice javascript"); 
-add("drink more water"); 
-add("go to sleep"); 
+const todoApp = {
 
-remove(2); 
+	todoList: [], 
+	idGenerator: 0,
 
-complete(0);*/ 
+	print: function(note = "") {
+		console.log(`------ ${note}`); 
+		console.log("To Do List: ", todoList); 
+	}, 
+
+	add: function(content) {
+		const todoItem = {
+			id: `a-${this.idGenerator++}`, 
+			content: content, 
+		}; 
+		this.todoList.push(todoItem);
+		this.print(`added ${content}`); 
+
+	},
+
+	remove: function(id) {
+		var todoItem = {}; 
+		this.print(`removed ${this.todoList[id].content}`);
+		this.todoList.splice(id, 1); 
+	},
+
+	complete: function(id) {
+		this.todoList[id].complete = true; 
+		this.print(`complete ${this.todoList[id].content}`); 
+	}, 
+}; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
