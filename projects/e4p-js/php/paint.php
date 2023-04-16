@@ -18,28 +18,30 @@
       <form>
     
         <div class="form-heading">
-          <h2>retirement calculator</h2>
+          <h2>paint calculator</h2>
         </div>
       
         <field class="number">
-          <label>What is your current age?</label>
-          <input id ="current-age" type="number">
+          <label>What is the length of your ceiling?</label>
+          <input id ="length" type="number" placeholder="length in feet">
         </field>
   
         <field class="number">
-          <label>What age would you like to retire?</label>
-          <input id ="retirement-age" type="numbere">
+          <label>What is the width of your ceiling?</label>
+          <input id ="width" type="number" placeholder="width in feet">
         </field>
       
-        <button type="submit">Submit</button>
+        <button type="submit">Let's Paint!</button>
   
-        <output id="outlet" class="form-output"></output>
+        <output class="form-output"></output>
+
+        <!--add a metric converter button-->
     
       </form>
       <a href="../index.php">e4p homepage</a>
     </inner-column>
   </body>
-  <script src="../js/retirement.js"></script>
+  <script src="../js/paint.js"></script>
 </html>
 
   

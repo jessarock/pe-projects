@@ -49,8 +49,7 @@
 			</output>
 	
 		</form>
-
-
+		<a href="../index.php">e4p homepage</a>
 	</inner-column>
 </body>
 

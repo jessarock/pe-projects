@@ -30,6 +30,10 @@
 		<li><a href="php/counting-characters.php">counting characters</a></li>
 		<li><a href="php/simple-math.php">simple math</a></li>
 		<li><a href="php/retirement.php">retirement calculator</a></li>
+		<li><a href="php/paint.php">paint calculator</a></li>
+		<li><a href="php/paint.php">area of a rectangular room</a></li>
+		<li><a href="php/pizza-party.php">pizza party</a></li>
+
 	</ul>
 
 		

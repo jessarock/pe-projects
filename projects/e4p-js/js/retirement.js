@@ -4,9 +4,12 @@ console.clear();
 
 
 const form = document.querySelector('form'); 
-const currentAge = document.querySelector('#current-age'); 
 const retirementAge = document.querySelector('#retirement-age'); 
 const outlet = document.querySelector('output'); 
+const currentAge = document.querySelector('#current-age'); 
+ 
+
+
 
 form.addEventListener('submit', function(event) {
 	event.preventDefault(); 
