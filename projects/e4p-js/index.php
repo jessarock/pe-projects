@@ -28,76 +28,8 @@
 	<ul>
 		<li><a href="php/hello.php">saying hello</a></li>
 		<li><a href="php/counting-characters.php">counting characters</a></li>
+		<li><a href="php/simple-math.php">simple math</a></li>
 	</ul>
-
-
-		<!--<form action="" method="POST">
-				
-			<div class="form-heading">
-				<h2>simple math</h2>
-			</div>
-
-			<div class="field">
-				<label>Enter a number.</label>
-				<input type="number">
-			</div>
-
-			<div class="field">
-				<label>Enter a second number.</label>
-				<input type="number">
-			</div>
-			<output class="form-output">
-				
-				<p class="name-output">OUTPUT BOX</p>
-			</output>
-
-		</form>
-
-		<form action="" method="POST">
-				
-			<div class="form-heading">
-				<h2>tip calculator</h2>
-			</div>
-
-			<div class="field">
-				<label>How much is the bill?</label>
-				<input type="number">
-			</div>
-
-			<div class="field">
-				<label>What tip percentage do you want to leave?<label>
-				<input type="number">
-			</div>
-
-			<output class="form-output">
-				
-				<p class="name-output">OUTPUT BOX</p>
-			</output>
-
-		</form>
-
-		<form action="" method="POST">
-				
-			<div class="form-heading">
-				<h2>inventory generator</h2>
-			</div>
-
-			<div class="field">
-				<label>Enter your product.</label>
-				<input type="text">
-			</div>
-
-			<div class="field">
-				<label><label>
-				<input type="number">
-			</div>
-			
-			<output class="form-output">
-				
-				<p class="name-output">OUTPUT BOX</p>
-			</output>
-
-		</form> -->
 
 		
 </inner-column>
