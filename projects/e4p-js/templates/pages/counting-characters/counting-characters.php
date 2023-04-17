@@ -1,19 +1,5 @@
 
-	
 
-	<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-
-			<title>jess rockwell | e4p</title>
-			<meta name="description" content="e4p">
-			<meta property="og:image" content="images/meta-default.jpg">
-			
-			<link rel="stylesheet" href="../css/style.css">
-	</head>
-
-	<body class="page-content">
-		<inner-column>
 		<form>
 	
 			<div class="form-heading">
@@ -49,9 +35,14 @@
 			</output>
 	
 		</form>
-		<a href="../index.php">e4p homepage</a>
-	</inner-column>
-</body>
 
-<script src="../js/counting-characters.js"></script>
+
+
+<script src="templates/pages/counting-characters/counting-characters.js"></script>
+
+
+
+
+
+
 		

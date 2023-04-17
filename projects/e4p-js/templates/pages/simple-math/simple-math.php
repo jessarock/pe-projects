@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-	<head>
-			<meta charset="utf-8">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
-
-			<title>jess rockwell | e4p-js</title>
-			<meta name="description" content="e4p">
-			<meta property="og:image" content="images/meta-default.jpg">
-			
-			<link rel="stylesheet" href="../css/style.css">
-	</head>
-
-	<body class="page-content">
-		<inner-column>
 
 			<form>
 		
@@ -37,10 +22,9 @@
 		
 			</form>
 			<a href="../index.php">e4p homepage</a>
-		</inner-column>
-	</body>
-	<script src="../js/simple-math.js"></script>
-</html>
+	
+	<script src="templates/pages/simple-math/simple-math.js"></script>
+
 
 	
 
