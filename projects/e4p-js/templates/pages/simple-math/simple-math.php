@@ -21,7 +21,6 @@
 				<output class="form-output"></output>
 		
 			</form>
-			<a href="../index.php">e4p homepage</a>
 	
 	<script src="templates/pages/simple-math/simple-math.js"></script>
 

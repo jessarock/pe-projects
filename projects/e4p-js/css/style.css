@@ -6,14 +6,13 @@ header inner-column {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto; 
-
 }
 
 body inner-column {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  max-width: 1200px;
+  max-width: 1000px;
   margin-left: auto; 
   margin-right: auto; 
 }
@@ -24,14 +23,18 @@ body inner-column {
 header {
   padding: 30px;
 }
-.page-menu {
-  display: flex;
-  flex-direction: column;
+ul {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ gap: 25px;
+ justify-content: center;
 }
+
 li {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
-  padding-top: 20px; 
+  padding-top: 20px;
 }
 h1 {
   color: ; 
@@ -44,8 +47,8 @@ h1 {
   font-weight: 900;
   padding-top: 30px; 
   padding-bottom: 30px; 
-
 }
+
 form {
   display: flex; 
   flex-direction: column; 
@@ -84,6 +87,17 @@ output {
   font-size: 1.2rem;
 }
 
+footer {
+  margin-top: 100px;
+  background-color: #4b4b4b;
+  padding: 50px;
+}
+footer h2 {
+  color:#fff;
+  font-size: 1.2rem;
+  padding-bottom: 20px;
+  }
+
 /*component partial*/ 
 button {
   max-width: 100px; 
@@ -104,8 +118,6 @@ button:hover {
   border: #4b4b4b;
   color: #4b4b4b;
 }
-
-
 
 a {
   text-decoration: underline;
