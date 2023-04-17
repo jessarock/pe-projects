@@ -7,12 +7,12 @@
       
         <field class="number">
           <label>How many people?</label>
-          <input id ="length" type="range" >
+          <input id ="people" type="range" min="0" max="100" step="1">
         </field>
   
         <field class="number">
           <label>How many pizzas do you have?</label>
-          <input id ="width" type="number" placeholder="width in feet">
+          <input id ="pizza" type="range" min="0" max="100" step="1">
         </field>
       
         <button type="submit">chow down!</button>
